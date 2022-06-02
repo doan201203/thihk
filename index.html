@@ -8,100 +8,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/58d0ba52f1.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
     <link rel="stylesheet" href="./css/site.css" />
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.1-web/css/all.min.css">
 </head>
 
-<div class="click-info">
-    <form action="" class="login-form">
-        <h2>Thông tin cá nhân</h2>
-        <div class="box_profile">
-            <div class="name">
-                <p>Họ Và tên: Trương Đoàn</p>
-            </div>
-            <div class="class">
-                <p>Lớp: CNTT K45H</p>
-            </div>
-            <div class="email">
-                <p>Email: Doan201203@gmail.com</p>
-            </div>
-            <div class="phone">
-                <p>Số điện thoại: 0337768233</p>
-            </div>
-            <div class="city">
-                <p>Quê quán: Thừa Thiên Huế</p>
-            </div>
-        </div>
-        <div class="social-info">
-            <div class="social-info_1">
-                <i class="ri-facebook-line"></i>
-                <a href="https://www.facebook.com/tr.doan20/" class="info-fb">Facebook</a>
-            </div>
-            <div class="social-info_2">
-                <i class="ri-code-line"></i>
-                <a href="https://codeforces.com/profile/tr.doan_20" class="info-codeforces">Codeforces</a>
-            </div>
-            
-        </div>
-    </form>
-</div>
-
-<div class="click-info">
-    <form action="" class="result">
-        <h2>Kết quả bài thi</h2>
-        <div class="box_profile">
-            <div class="name">
-                <p>Mã học phần: 2021-2022.2.TIN3092.004 </p>
-            </div>
-            <div class="class">
-                <p>Tên học phần: Lập trình font end</p>
-            </div>
-            <div class="phone">
-                <p>Số tín chỉ: 2</p>
-            </div>
-            <div class="city">
-                <p>Điểm đánh giá học phần: ???</p>
-            </div>
-        </div>
-    </form>
-</div>
-
 <body>
-    <div class="header">
-        <div class="header__top">
-            <p>Trường Đại Học Khoa Học Huế</p>
-        </div>
-        <div class="header__user">
-            <h1>TRƯƠNG ĐOÀN</h1>
-            <p>Công nghệ thông tin K45H</p>
-        </div>
-        <div class="header__avt">
-            <img src="./images/285509478_547803596785399_3131121709314928_n.jpg" alt="">
-        </div>
-    </div>
-    <div class="body">
-        <div class="space"></div>
-        <div class="profile">
-            <div class="profile_user">
-                <p><i class="ri-user-line"></i> Thông tin cá nhân</p>
-                <div class="space_2"></div>
+    <div id="main">
+        <div class="header">
+            <div class="header__top">
+                <p>Trường Đại Học Khoa Học Huế</p>
             </div>
-            <div class="profile_user info-hocphan">
-                <p><i class="ri-ancient-gate-line"></i> Kết quả học tập</p>
-                <div class="space_2"></div>
+            <div class="header__user">
+                <h1>TRƯƠNG ĐOÀN</h1>
+                <p>Công nghệ thông tin K45H</p>
             </div>
-            <div class="profile_user">
-                <p><i class="ri-github-fill"></i> Sản phẩm cá nhân</p>
-                <div class="space_2"></div>
-            </div>
-            <div class="profile_user">
-                <p><i class="ri-image-line"></i> Thư viện ảnh</p>
-                <div class="space_2"></div>
+            <div class="header__avt">
+                <img class ="header__avt__item" src="./images/285509478_547803596785399_3131121709314928_n.jpg" alt="">
             </div>
         </div>
-    </div>
+        <!-- end of header -->
 
+        <div class="container">
+            <div class="liner"></div>
+            <div class="profile">
+                <div class="profile_user">
+                    <div class="user__info__title">
+                        <p><i class="ri-user-line"></i> Thông tin cá nhân</p>
+                    </div>
+                    <div class="liner_2"></div>
+                    <div class="user__info">
+                        <div class="user__info__top">
+                            <p class="user__info__top--title text__blue">About Me</p>
+                        </div>
+                        <div class="user__info__mid">
+                            <p class="user__info__name text__blue">Trương Đoàn <i class="fa-solid fa-id-card"></i></p>
+                            <div class="user__info__bot">
+
+                                <div class="user__info__bot__left">
+                                    <div class="user__info__bot__til">
+                                        <p class = "text__blue">Thông tin cá nhân</p>
+                                    </div>
+                                    <ul class="user__info__bot__list">
+                                        <li class="user__info__bot__list--per text__blue">Class : K45H</li>
+                                        <li class="user__info__bot__list--per text__blue">Date of Birth : 20 / 12 / 2003</li>
+                                        <li class="user__info__bot__list--per text__blue">Place of Birth : Bệnh Viện TW Huế</li>
+                                    </ul>
+                                </div>
+                                <div class="user__info__bot__right">
+                                    <div class="user__info__bot__til">
+                                        <p class="text__blue">Thông tin liên hệ</p>
+                                    </div>
+                                    <ul class="user__info__bot__item">
+                                        <li class="user__info__bot__item--contact text__blue">Email : doan201203@gmail.com</li>
+                                        <li class="user__info__bot__item--contact text__blue">Phone number : 0337768233 </li>
+                                        <li class="user__info__bot__item--contact text__blue">Address : 11 - Thủy Vân - Thành Phố Huế </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="profile_user">
+                    <div class="result-study">
+                        <p><i class="ri-ancient-gate-line"></i> Kết quả học tập</p>
+                        <div class="liner_2"></div>
+                    </div>
+                    <div class="result-study-info user__info__top">
+                        <div class="result-study-info-tit">
+                            <p class="text__blue .user__info__top--title"><i class="fa-solid fa-code"></i>  Lập Trình Front-End</p>
+                        </div>
+                        <div class="result-study-about">
+
+                            <div class="result-second">
+                                <img src="./images/Frontend-Web-.jpg" alt="">
+                            </div>
+
+                            <div class="result-first">
+                                <p class="result-name text__blue">1. Mã học phần : 2021-2022.2.TIN3092.004.</p>
+                                <p class="result-name text__blue">2. Tên lớp học phần : Lập trình Front - End - Nhóm 4.</p>
+                                <p class="result-name text__blue">3. Số tín chỉ : 2.</p>
+                                <p class="result-name text__blue">4. Điểm đánh giá học phần : null</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile_user">
+                    <div class="product-per-top">
+                        <p><i class="ri-github-fill"></i> Sản phẩm cá nhân</p>
+                        <div class="liner_2"></div>
+                    </div>
+                    <div class="product-bot">
+                        <div class="product-bot_f">
+                            <p class="product-bot-dec text__blue"><i class="fa-brands fa-product-hunt"></i> List Product</p>
+                        </div>
+                        <div class="product-bot-s">
+                            <ul class="product-list">
+                                <li><a href="https://doan201203.github.io/BTH01/">1. Tech Store</a></li>
+                                <li><a href="https://doan201203.github.io/BTH02/">2. Thắng Lợi Group</a></li>
+                                <li><a href="https://doan201203.github.io/bth-03/">3. Đại Học Khoa Học</a></li>
+                                <li><a href="https://doan201203.github.io/bth-04/">4. Hi Tech</a></li>
+                                <li><a href="https://doan201203.github.io/bth-05/">5. Cửu Âm Chân Kinh</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile_user">
+                    <p><i class="ri-image-line"></i> Thư viện ảnh</p>
+                    <div class="liner_2"></div>
+                    <div class="libary__grid">
+                        <div class="libary__grid_top">
+                            <h2 class="libary-title text__blue">
+                                <i class="fa-solid fa-images"></i>
+                                Thư viện của Đoàn
+                            </h2>
+                        </div>
+                        <div class="libary-img">
+                            <img src="./images/im1.jpg" alt="" class="img1">
+                            <img src="./images/im2.jpg" alt="" class="img2">
+                            <img src="./images/im3.jpg" alt="" class="img3">
+                            <img src="./images/im4.jpg" alt="" class="img4">
+                            <img src="./images/im5.jpg" alt="" class="img5">
+                            <img src="./images/im6.jpg" alt="" class="img6">
+                            <img src="./images/im7.jpg" alt="" class="img7">
+                            <img src="./images/im8.jpg" alt="" class="img8">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="footer__e">THE END!</p>
+        </div>
+    </div>
 </body>
-<script src="./javs.js"></script>
 
 </html>
